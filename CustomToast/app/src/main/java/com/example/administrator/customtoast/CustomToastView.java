@@ -26,7 +26,7 @@ public class CustomToastView extends View{
     private Paint mPaint;    //自定义view的画笔
 
     private float mWidth = 0f;      //view的宽
-    private float mEyeWidth = 0f;   //笑脸的眼睛半径
+    private float mEyeRadius = 0f;   //笑脸的眼睛半径
     private float mPadding = 0f;    //view的偏移量
     private float mEndAngle = 0f;    //圆弧结束的度数
 
@@ -77,7 +77,7 @@ public class CustomToastView extends View{
         initRect();
         mWidth = getMeasuredWidth();
         mPadding = dip2px(10);
-        mEyeWidth = dip2px(3);
+        mEyeRadius = dip2px(3);
 
     }
 
@@ -95,11 +95,11 @@ public class CustomToastView extends View{
         mPaint.setStyle(Paint.Style.FILL);
         //左眼
         if (isSmileLeft) {
-            canvas.drawCircle(mPadding + mEyeWidth + mEyeWidth / 2, mWidth / 3, mEyeWidth, mPaint);
+            canvas.drawCircle(mPadding + mEyeRadius + mEyeRadius / 2, mWidth / 3, mEyeRadius, mPaint);
         }
         //右眼
         if (isSmileRight) {
-            canvas.drawCircle(mWidth - mPadding - mEyeWidth - mEyeWidth / 2, mWidth / 3, mEyeWidth, mPaint);
+            canvas.drawCircle(mWidth - mPadding - mEyeRadius - mEyeRadius / 2, mWidth / 3, mEyeRadius, mPaint);
         }
     }
 
