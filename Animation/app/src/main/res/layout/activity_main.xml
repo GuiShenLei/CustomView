@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true">
+
+    <Button
+        android:id="@+id/animation1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="按钮变透明再变回来" />
+    <Button
+        android:id="@+id/animation2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="360度旋转" />
+    <Button
+        android:id="@+id/animation3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="向左移动" />
+    <Button
+        android:id="@+id/animation4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="放大" />
+    <Button
+        android:id="@+id/animation5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="先移动，在旋转同时渐变" />
+
+
+</LinearLayout>
