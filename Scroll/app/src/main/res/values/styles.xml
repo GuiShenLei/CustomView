@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="No_Animation_Full_Screen" parent="android:Theme">
+
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+
+    <style name="NoAnimation" parent="No_Animation_Full_Screen">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

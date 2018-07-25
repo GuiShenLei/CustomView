@@ -11,12 +11,16 @@ import android.provider.MediaStore;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class MainActivity extends Activity {
     Button mTakePhoto;
     ImageView mImg;
+    TextView mTime;
 
     public static final int TAKE_PHOTO = 1;
     public static final int CROP_PHOTO = 2;
@@ -30,21 +34,25 @@ public class MainActivity extends Activity {
 
         mTakePhoto = findViewById(R.id.take_photo);
         mImg = findViewById(R.id.img);
+        mTime = findViewById(R.id.time);
 
 
         mTakePhoto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                File outputImage = new File(Environment.getExternalStorageDirectory(), "tempImage.jpg");
-                try{
-                    if(outputImage.exists()){
-                        outputImage.delete();
-                    }
+                File storageDir = new File(Environment.getExternalStorageDirectory() + "/DCIM/Camera");
+                storageDir.mkdirs();// 创建照片的存储目录
+                File outputImage = new File(storageDir, getPhotoFileName());
 
-                    outputImage.createNewFile();
-                }catch (Exception e){
-                    e.printStackTrace();
-                }
+//                try{
+//                    if(outputImage.exists()){
+//                        outputImage.delete();
+//                    }
+//
+//                    outputImage.createNewFile();
+//                }catch (Exception e){
+//                    e.printStackTrace();
+//                }
 
                 mImgUri = Uri.fromFile(outputImage);
                 Intent intent = new Intent("android.media.action.IMAGE_CAPTURE");
@@ -52,6 +60,8 @@ public class MainActivity extends Activity {
                 startActivityForResult(intent, TAKE_PHOTO);
             }
         });
+
+        mTime.setText(getPhotoFileName());
     }
 
     @Override
@@ -63,6 +73,8 @@ public class MainActivity extends Activity {
                     intent.setDataAndType(mImgUri, "image/*");
                     intent.putExtra("scale", true);
                     intent.putExtra(MediaStore.EXTRA_OUTPUT, mImgUri);
+                    intent.putExtra("aspectX",1);
+                    intent.putExtra("aspectY",1);
                     startActivityForResult(intent, CROP_PHOTO);
                 }
                 break;
@@ -79,5 +91,16 @@ public class MainActivity extends Activity {
                 default:
                     break;
         }
+    }
+
+
+    /**
+     * 用当前时间给取得的图片命名
+     *
+     */
+    private String getPhotoFileName() {
+        Date date = new Date(System.currentTimeMillis());
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyMMddHHmmss");
+        return dateFormat.format(date) + ".jpg";
     }
 }

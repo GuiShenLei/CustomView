@@ -4,7 +4,10 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.database.Cursor;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
@@ -13,6 +16,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListAdapter;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.ByteArrayOutputStream;
@@ -20,6 +24,7 @@ import java.io.ByteArrayOutputStream;
 public class MainActivity extends Activity {
     Button mTakePhoto;
     ImageView mImg;
+    TextView mImagePath;
 
     public static final int TAKE_PHOTO = 1;
     public static final int CROP_PHOTO = 2;
@@ -31,6 +36,7 @@ public class MainActivity extends Activity {
 
         mTakePhoto = findViewById(R.id.take_photo);
         mImg = findViewById(R.id.img);
+        mImagePath = findViewById(R.id.image_path);
 
         mTakePhoto.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,7 +52,6 @@ public class MainActivity extends Activity {
                                     case 0: {
                                         String status = Environment.getExternalStorageState();
                                         if (status.equals(Environment.MEDIA_MOUNTED)) {// 判断是否有SD卡
-//                                            doTakePhoto();// 用户点击了从照相机获取
                                             Intent intent = new Intent();
                                             intent.setAction(MediaStore.ACTION_IMAGE_CAPTURE);//配置
                                             intent.addCategory(Intent.CATEGORY_DEFAULT);
@@ -59,10 +64,10 @@ public class MainActivity extends Activity {
 
                                     }
                                     case 1:
-//                                        doPickPhotoFromGallery();// 从相册中去获取
                                         Intent intent = new Intent();
-                                        intent.setAction(Intent.ACTION_GET_CONTENT);
-                                        intent.setType("image/*");
+                                        intent.setAction(Intent.ACTION_PICK);
+                                        intent.setDataAndType(MediaStore.Images.Media.EXTERNAL_CONTENT_URI,
+                                                "image/*");
                                         startActivityForResult(intent,2);
                                         break;
                                 }
@@ -83,8 +88,23 @@ public class MainActivity extends Activity {
                 mImg.setImageBitmap(bitmap);
                 break;
             case 2:
-                Bitmap bitmap1 = (Bitmap) data.getExtras().get("data");
-                mImg.setImageBitmap(bitmap1);
+                try {
+                    Uri selectedImage = data.getData(); //获取系统返回的照片的Uri
+                    String[] filePathColumn = {MediaStore.Images.Media.DATA};
+                    Cursor cursor = getContentResolver().query(selectedImage,
+                            filePathColumn, null, null, null);//从系统表中查询指定Uri对应的照片
+                    if (cursor != null) {
+                        cursor.moveToFirst();
+                        int columnIndex = cursor.getColumnIndex(filePathColumn[0]);
+                        String path = cursor.getString(columnIndex);  //获取照片路径
+                        cursor.close();
+                        Bitmap bitmap1 = BitmapFactory.decodeFile(path);
+                        mImagePath.setText(path);
+                        mImg.setImageBitmap(bitmap1);
+                    }
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
                 break;
         }
     }
