@@ -55,7 +55,7 @@ public class MainActivity extends Activity {
 //                }
 
                 mImgUri = Uri.fromFile(outputImage);
-                Intent intent = new Intent("android.media.action.IMAGE_CAPTURE");
+                Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
                 intent.putExtra(MediaStore.EXTRA_OUTPUT, mImgUri);
                 startActivityForResult(intent, TAKE_PHOTO);
             }
@@ -69,13 +69,14 @@ public class MainActivity extends Activity {
         switch (requestCode){
             case TAKE_PHOTO:
                 if(resultCode == RESULT_OK){
-                    Intent intent = new Intent("com.android.camera.action.CROP");
-                    intent.setDataAndType(mImgUri, "image/*");
-                    intent.putExtra("scale", true);
-                    intent.putExtra(MediaStore.EXTRA_OUTPUT, mImgUri);
-                    intent.putExtra("aspectX",1);
-                    intent.putExtra("aspectY",1);
-                    startActivityForResult(intent, CROP_PHOTO);
+//                    Intent intent = new Intent("com.android.camera.action.CROP");
+//                    intent.setDataAndType(mImgUri, "image/*");
+//                    intent.putExtra("scale", true);
+//                    intent.putExtra(MediaStore.EXTRA_OUTPUT, mImgUri);
+//                    intent.putExtra("aspectX",360);
+//                    intent.putExtra("aspectY",331);
+//                    intent.putExtra("return-data", false);
+//                    startActivityForResult(intent, CROP_PHOTO);
                 }
                 break;
             case CROP_PHOTO:

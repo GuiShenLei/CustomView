@@ -60,11 +60,9 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="5dp"
-                android:background="@null"
-
                 android:textStyle="bold"
-                android:singleLine="true"
-                android:imeOptions="actionDone"/>
+                android:inputType="text"
+                android:imeOptions="actionNext" />
 
             <TextView
                 android:id="@+id/tv_edit_pbook_poster_nickname"
