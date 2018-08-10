@@ -12,7 +12,7 @@ import android.view.WindowManager;
  * 创建时间：2018-08-08
  */
 
-public class Dialog extends android.app.Dialog {
+public class Dialog extends android.app.Dialog{
     private Context mContext;
 
     public Dialog(Context context) {
