@@ -1,5 +1,7 @@
 package com.example.wbx.popwindow;
 
+import android.app.ActionBar;
+import android.graphics.drawable.BitmapDrawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Gravity;
@@ -29,12 +31,9 @@ public class MainActivity extends AppCompatActivity {
     private void showPopwindow(){
         View popwindowView = LayoutInflater.from(this).inflate(R.layout.popwindow_layout,null);
 
-        PopupWindow popupWindow = new PopupWindow(this);
-        popupWindow.setContentView(popwindowView);
-        popupWindow.setWidth(getResources().getDimensionPixelSize(R.dimen.size_50dp));
-        popupWindow.setHeight(getResources().getDimensionPixelSize(R.dimen.size_50dp));
+        PopupWindow popupWindow = new PopupWindow(popwindowView, ActionBar.LayoutParams.WRAP_CONTENT, ActionBar.LayoutParams.WRAP_CONTENT,true);
         popupWindow.setOutsideTouchable(true);
-        popupWindow.setBackgroundDrawable(null);
-        popupWindow.showAtLocation(mTvHello, Gravity.CENTER,0,0);
+        popupWindow.setBackgroundDrawable(new BitmapDrawable());
+        popupWindow.showAsDropDown(mTvHello);
     }
 }
