@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
         PopupWindow popupWindow = new PopupWindow(popwindowView, ActionBar.LayoutParams.WRAP_CONTENT, ActionBar.LayoutParams.WRAP_CONTENT,true);
         popupWindow.setOutsideTouchable(true);
-        popupWindow.setBackgroundDrawable(new BitmapDrawable());
+        popupWindow.setBackgroundDrawable(new BitmapDrawable());//必须设置背景否则点击屏幕popwindow不消失
         popupWindow.showAsDropDown(mTvHello);
     }
 }

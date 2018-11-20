@@ -1,13 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
     <com.baidu.mapapi.map.MapView
         android:id="@+id/map"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:clickable="true"/>
 
-</LinearLayout>
+    <TextView
+        android:id="@+id/addr"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:background="#ffffff"/>
+
+    <TextView
+        android:id="@+id/addr2"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_below="@+id/addr"
+        android:gravity="center"
+        android:background="#ffffff"/>
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="搜索"/>
+
+    <Button
+        android:id="@+id/location"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="定位"/>
+
+</RelativeLayout>
