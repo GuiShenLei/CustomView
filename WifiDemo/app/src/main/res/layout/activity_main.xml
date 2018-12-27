@@ -8,20 +8,78 @@
 
     <Button
         android:id="@+id/startBtn"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="打开WiFi网卡"/>
+        android:text="打开WiFi网卡"
+        app:layout_constraintEnd_toStartOf="@id/stopBtn"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <Button
         android:id="@+id/stopBtn"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/startBtn"
-        android:text="关闭WiFi网卡"/>
+        android:text="关闭WiFi网卡"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/startBtn" />
+
     <Button
         android:id="@+id/checkBtn"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="检查WiFi网卡状态"
-        app:layout_constraintTop_toBottomOf="@+id/stopBtn"/>
+        app:layout_constraintTop_toBottomOf="@id/stopBtn"
+        app:layout_constraintEnd_toStartOf="@id/stopBtn"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <Button
+        android:id="@+id/scan_net"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="扫描网络"
+        app:layout_constraintTop_toBottomOf="@id/stopBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/startBtn" />
+
+    <Button
+        android:id="@+id/scan_result"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="扫描结果"
+        app:layout_constraintTop_toBottomOf="@id/checkBtn"
+        app:layout_constraintEnd_toStartOf="@id/stopBtn"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <Button
+        android:id="@+id/link_wifi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="链接WiFi"
+        app:layout_constraintTop_toBottomOf="@id/scan_net"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/startBtn"/>
+
+    <Button
+        android:id="@+id/break_wifi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="断开WiFi"
+        app:layout_constraintTop_toBottomOf="@id/link_wifi"
+        app:layout_constraintEnd_toStartOf="@id/stopBtn"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <Button
+        android:id="@+id/wifi_link_state"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="WiFi链接状态"
+        app:layout_constraintTop_toBottomOf="@id/link_wifi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/startBtn"/>
+
+    <TextView
+        android:id="@+id/tv_scan_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/break_wifi"/>
 
 </android.support.constraint.ConstraintLayout>
