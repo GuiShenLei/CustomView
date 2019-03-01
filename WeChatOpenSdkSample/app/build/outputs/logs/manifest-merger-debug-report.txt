@@ -1,0 +1,265 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:2:1-88:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\e2e5c181b04c40371c79d9764fb529c5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\7ce6c21b930b66a2d7cda73ff7da9a4f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\078072d76b679ab915aa2d13504b4dab\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\3fea9dce554c4444c18169436ffa4219\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\a37d685bcf587c95edeabec745e8942e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\8476aefbf886501cb822ff40e5e37fd7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\912bbb51ccec3ecd5255de70befb4eb2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\111288d3738b5aca5a2c5a681e6bf8b6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\270c5beff651fd2ce953aca9d2866446\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\8c7bc8fbe90af1a363184db3c1ce2029\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\7046bfb3dcec53c4031c174af7afd5d3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\2ce78f70c6230da6a7495cfb65ef37df\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\94d91b956947123e6838b6d7799142d9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\fc5ac9b88b03f4597741fa441dd32ec0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\1059d615da2112f6443c4d8f14f60aa0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\bb26b699cadc3080632e0b1ef9017415\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\b3e0efc89865dedce34d3f72487a7cd5\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\9ac8f9553ed42ab0d284eb9437aa2b85\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\b99b48deaedf6b73ba926a3449048d03\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\eb4d80d8881ac4ab44dcd96f09975a6f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\30544ae2ca6b83916014617b7d1f9963\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\0d689f674bf969bf4f6d802df3307599\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\468e1c76e535f186cd4a2fb28d79ed1c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\4e29d6cebcbb4bf593cceb100c5e2f73\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\77e602bd6688ad9118471ba6bd737363\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\8be780f40a679cf08c16b1cec441683a\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:2:1-88:12
+	package
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:7:5-44
+INJECTED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:7:5-44
+INJECTED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:7:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\e2e5c181b04c40371c79d9764fb529c5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\e2e5c181b04c40371c79d9764fb529c5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\7ce6c21b930b66a2d7cda73ff7da9a4f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\7ce6c21b930b66a2d7cda73ff7da9a4f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\078072d76b679ab915aa2d13504b4dab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\078072d76b679ab915aa2d13504b4dab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\3fea9dce554c4444c18169436ffa4219\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\3fea9dce554c4444c18169436ffa4219\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\a37d685bcf587c95edeabec745e8942e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\a37d685bcf587c95edeabec745e8942e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\8476aefbf886501cb822ff40e5e37fd7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\8476aefbf886501cb822ff40e5e37fd7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\912bbb51ccec3ecd5255de70befb4eb2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\912bbb51ccec3ecd5255de70befb4eb2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\111288d3738b5aca5a2c5a681e6bf8b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\111288d3738b5aca5a2c5a681e6bf8b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\270c5beff651fd2ce953aca9d2866446\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\270c5beff651fd2ce953aca9d2866446\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\8c7bc8fbe90af1a363184db3c1ce2029\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\8c7bc8fbe90af1a363184db3c1ce2029\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\7046bfb3dcec53c4031c174af7afd5d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\7046bfb3dcec53c4031c174af7afd5d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\2ce78f70c6230da6a7495cfb65ef37df\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\2ce78f70c6230da6a7495cfb65ef37df\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\94d91b956947123e6838b6d7799142d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\94d91b956947123e6838b6d7799142d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\fc5ac9b88b03f4597741fa441dd32ec0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\fc5ac9b88b03f4597741fa441dd32ec0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\1059d615da2112f6443c4d8f14f60aa0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\1059d615da2112f6443c4d8f14f60aa0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\bb26b699cadc3080632e0b1ef9017415\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\bb26b699cadc3080632e0b1ef9017415\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\b3e0efc89865dedce34d3f72487a7cd5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\b3e0efc89865dedce34d3f72487a7cd5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\9ac8f9553ed42ab0d284eb9437aa2b85\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\9ac8f9553ed42ab0d284eb9437aa2b85\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\b99b48deaedf6b73ba926a3449048d03\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\b99b48deaedf6b73ba926a3449048d03\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\eb4d80d8881ac4ab44dcd96f09975a6f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\eb4d80d8881ac4ab44dcd96f09975a6f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\30544ae2ca6b83916014617b7d1f9963\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\30544ae2ca6b83916014617b7d1f9963\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\0d689f674bf969bf4f6d802df3307599\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\0d689f674bf969bf4f6d802df3307599\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\468e1c76e535f186cd4a2fb28d79ed1c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\468e1c76e535f186cd4a2fb28d79ed1c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\4e29d6cebcbb4bf593cceb100c5e2f73\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\4e29d6cebcbb4bf593cceb100c5e2f73\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\77e602bd6688ad9118471ba6bd737363\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\77e602bd6688ad9118471ba6bd737363\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\8be780f40a679cf08c16b1cec441683a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\8be780f40a679cf08c16b1cec441683a\AndroidManifest.xml:20:5-44
+INJECTED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:7:5-44
+INJECTED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:7:5-44
+	android:targetSdkVersion
+		INJECTED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:7:5-44
+		INJECTED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:7:15-41
+		INJECTED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:10:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:14:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:15:5-74
+	android:name
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:15:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:16:5-78
+	android:name
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:16:22-76
+application
+ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:18:5-86:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\1059d615da2112f6443c4d8f14f60aa0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\1059d615da2112f6443c4d8f14f60aa0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\bb26b699cadc3080632e0b1ef9017415\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\bb26b699cadc3080632e0b1ef9017415\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\wbx\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\1059d615da2112f6443c4d8f14f60aa0\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:20:9-41
+	android:icon
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:19:9-45
+	android:allowBackup
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:21:9-36
+activity#net.sourceforge.simcpux.MainActivity
+ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:23:9-38:20
+	android:label
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:25:13-45
+	android:launchMode
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:27:13-44
+	android:exported
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:24:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:28:13-31:29
+action#android.intent.action.MAIN
+ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:30:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:scheme:sdksample
+ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:33:13-37:29
+action#android.intent.action.VIEW
+ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:34:17-68
+	android:name
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:34:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:35:17-75
+	android:name
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:35:27-73
+data
+ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:36:17-51
+	android:scheme
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:36:23-49
+activity#net.sourceforge.simcpux.wxapi.WXEntryActivity
+ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:40:9-47:20
+	android:label
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:42:13-45
+	android:launchMode
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:46:13-44
+	android:exported
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:44:13-36
+	android:theme
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:43:13-72
+	android:taskAffinity
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:45:13-59
+	android:name
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:41:13-50
+activity#net.sourceforge.simcpux.SendToWXActivity
+ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:49:9-54:51
+	android:label
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:51:13-45
+	android:launchMode
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:53:13-44
+	android:windowSoftInputMode
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:52:13-72
+	android:theme
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:54:13-49
+	android:name
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:50:13-45
+activity#net.sourceforge.simcpux.GetFromWXActivity
+ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:56:9-59:51
+	android:label
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:58:13-45
+	android:theme
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:59:13-49
+	android:name
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:57:13-46
+activity#net.sourceforge.simcpux.ShowFromWXActivity
+ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:61:9-64:51
+	android:label
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:63:13-45
+	android:theme
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:64:13-49
+	android:name
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:62:13-47
+receiver#net.sourceforge.simcpux.AppRegister
+ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:66:9-72:20
+	android:permission
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:68:13-71
+	android:name
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:67:13-40
+intent-filter#action:name:com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP
+ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:69:13-71:29
+action#com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP
+ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:70:17-100
+	android:name
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:70:25-97
+activity#net.sourceforge.simcpux.SubscribeMessageActivity
+ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:74:9-76:51
+	android:label
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:75:13-54
+	android:theme
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:76:13-49
+	android:name
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:74:19-59
+activity#net.sourceforge.simcpux.SubscribeMiniProgramMsgActivity
+ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:78:9-80:51
+	android:label
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:79:13-54
+	android:theme
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:80:13-49
+	android:name
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:78:19-66
+activity#net.sourceforge.simcpux.UserInfoActivity
+ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:82:9-84:51
+	android:label
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:83:13-45
+	android:theme
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:84:13-49
+	android:name
+		ADDED from D:\Work\SelfStudy\weixin\WeChatOpenSdkSample\app\src\main\AndroidManifest.xml:82:19-51
