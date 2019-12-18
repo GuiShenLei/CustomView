@@ -4,6 +4,9 @@
     <declare-styleable name="CustomRingView">
         <attr name="circle_radius" format="dimension"/>
         <attr name="cicle_width" format="dimension"/>
+        <attr name="arc_width" format="dimension"/>
+        <attr name="start_angle" format="integer"/>
+        <attr name="over_angle" format="integer"/>
     </declare-styleable>
 
 </resources>

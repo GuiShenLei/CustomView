@@ -5,27 +5,55 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#000000">
+    android:background="#FFFFFF">
 
 
     <com.example.customringdemo.CustomRingView
         android:id="@+id/ring1"
-        android:layout_width="0dp"
-        android:layout_height="240dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:cicle_width="30dp"
-        app:circle_radius="100dp"/>
+        app:cicle_width="5dp"
+        app:circle_radius="30dp"
+        android:background="#000000"/>
 
     <com.example.customringdemo.CustomCircleView
-        android:layout_width="0dp"
-        android:layout_height="240dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:circle_radius="100dp"/>
+        android:layout_marginTop="100dp"
+        app:circle_radius="30dp"
+        android:background="#000000"/>
 
+    <com.example.customringdemo.CustomArcView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="200dp"
+        app:cicle_width="5dp"
+        android:background="#000000"
+        app:start_angle="0"
+        app:over_angle="90"/>
+
+    <com.example.customringdemo.CustomArcAndRingView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="290dp"
+        android:background="#000000"
+        app:start_angle="0"
+        app:over_angle="90"
+        app:cicle_width="20dp"
+        app:circle_radius="60dp"
+        app:arc_width="50dp"/>
 
 
     <ImageView
