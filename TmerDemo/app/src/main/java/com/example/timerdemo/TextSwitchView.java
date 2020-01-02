@@ -11,6 +11,7 @@ import android.widget.ViewSwitcher;
 
 public class TextSwitchView extends TextSwitcher implements ViewSwitcher.ViewFactory {
     private Context mContext;
+    private TextView mTextView;
 
     public TextSwitchView(Context context) {
         super(context);
@@ -30,10 +31,18 @@ public class TextSwitchView extends TextSwitcher implements ViewSwitcher.ViewFac
         setOutAnimation(AnimationUtils.loadAnimation(mContext, R.anim.text_out_anim));
     }
 
+    public void setTextColot(int color){
+        for(int i=0;i<getChildCount();i++) {
+            TextView textView = (TextView)getChildAt(i);
+            textView.setTextColor(color);
+        }
+    }
+
     @Override
     public View makeView() {
-        TextView textView = new TextView(mContext);
-        textView.setGravity(Gravity.CENTER_HORIZONTAL);
-        return textView;
+        mTextView = new TextView(mContext);
+        mTextView.setGravity(Gravity.CENTER_HORIZONTAL);
+        mTextView.setText("hellp");
+        return mTextView;
     }
 }

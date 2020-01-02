@@ -35,8 +35,9 @@ public class MainActivity extends AppCompatActivity {
         mText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, SecondActivity.class);
-                startActivity(intent);
+//                Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+////                startActivity(intent);
+                mTextSwitch.setTextColot(getResources().getColor(R.color.colorPrimary));
             }
         });
     }
@@ -64,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
 
                 mTimerHandler.sendEmptyMessage(0);
             }
-        }, 0, 5000);
+        }, 2000, 2000);
     }
 
     private void stopTimer(){
