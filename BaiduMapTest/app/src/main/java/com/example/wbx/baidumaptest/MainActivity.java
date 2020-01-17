@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
     private Button mLocation;
 
     public LocationClient mLocationClient = null;
+    private MyLocationListener myListener = new MyLocationListener();
 
     private double mLatitude;
     private double mLongtitude;
